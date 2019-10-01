@@ -1,12 +1,29 @@
 {
+    "roles": ["admin", "user"],
+    "user": {
+        "coby": {
+            "id": 0,
+            "role": "admin",
+            "username": "stan lee",
+            "password": "cobyamar"
+        },
+        "shlomo": {
+            "id": 1,
+            "role": "user",
+            "username": "blade",
+            "password": "shlimishlomo"
+        }
+    },
     "posts": [
         {
             "id": 0,
-            "title": "test_0"
+            "userId": "1",
+            "title": "great day to be alive"
         },
         {
             "id": 1,
-            "title": "test_1"
+            "userId": "1",
+            "title": "great day to be Dead ;)"
         }
     ]
 }
