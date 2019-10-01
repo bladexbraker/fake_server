@@ -1,0 +1,10 @@
+{
+  posts: [{
+    id: 0,
+    title: 'test_0'
+  }, {
+    id: 1,
+    title: 'test_1'
+  }
+  ]
+}
